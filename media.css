@@ -1,0 +1,14 @@
+@media (min-width: 768px) {
+   nav-items{
+    display: none;
+   }
+
+   .menu-toggle {
+    display: inline-block;
+  }
+
+  /* Hide details offcanvas button on mobile */
+  .btn[data-bs-target="#detailsOffcanvas"] {
+    display: none;
+  }
+}
